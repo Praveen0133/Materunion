@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Outfit", serif;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header .logo img {
+    width: 42px;
+    height: auto;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar .nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .navbar .nav li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+.header .navbar .auth-btns {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.header .navbar .auth-btns .btn {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header .navbar .auth-btns .btn-login {
+    color: #FB5F66;
+}
+
+.header .navbar .auth-btns .btn-register {
+    color: #fff;
+    padding: 12px 40px 12px 42px;
+    border-radius: 8px;
+    background: #FB5F66;
+}
+
+
+.meet{
+    margin-top: 187px;
+    margin-bottom: 203px;
+}
+.meet .header{
+    width: 856px;
+     margin: auto;
+}
+
+.meet .header .text{
+    background-color: #fff2f3; 
+    border-radius: 34px; 
+    width: 204px;
+     height: 28px;
+      border-radius: 34px;
+       margin: auto;
+        padding: 6px ,10px;
+}
+.meet .header .text p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.12px;
+    color: #FB5F66;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 18px;
+    background-color: #FFF2F3;
+    padding: 6px 10px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.meet .header .text p img{
+    width: 16px;
+    height: auto;
+}
+
+.meet .header .text1 {
+margin-top: 24px;
+margin-bottom:32px;
+
+}
+
+.meet .header .text1 h2 {
+    font-weight: 600;
+    font-size: 44px;
+     line-height: 52.8px;
+      text-align: center;
+       color: #222222; 
+       text-align: center;
+       margin-bottom: 14px;
+       letter-spacing: 2%;
+}
+
+.meet .header .text1 h2::after {
+    background-image: url(./img/Arrow\ 22.png);
+    background-position: center;
+    
+
+}
+
+
+.meet .header .text1 p {
+    font-weight: 856px;
+    height: 58px;
+    line-height: 28.8px;
+     text-align: center;
+      color: #414141; 
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 2%;
+
+}
+
+.meet .header button {
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 8px;
+    background: #FB5F66;
+    border: none;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 141px;
+    line-height: 20.16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.genius-mentor {
+    padding: 80px 0;
+}
+
+.genius-mentor .heading p {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.genius-mentor .heading p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.12px;
+    color: #FB5F66;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 18px;
+    background-color: #FFF2F3;
+    padding: 6px 10px;
+    border-radius: 34px;
+}
+
+.genius-mentor .heading p img {
+    width: 16px;
+    height: auto;
+}
+
+.genius-mentor .heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    letter-spacing: 2%;
+    color: #222222;
+    text-align: center;
+}
+
+.genius-mentor .item-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.genius-mentor .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.genius-mentor .card-grid .card {
+    background-color: #fff;
+    border: 1px solid #E1E0E0;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.genius-mentor .card-grid .card::after {
+    position: absolute;
+    left: 0;
+    top: 92%;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border-radius: 379px;
+    background: rgba(251, 95, 104, 0.10);
+    filter: blur(122px);
+    z-index: 1;
+}
+
+.genius-mentor .card-grid .card .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #FFEDEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.genius-mentor .card-grid .card .icon img {
+    width: 24px;
+    height: auto;
+}
+
+.genius-mentor .card-grid .card h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #444444;
+    text-align: center;
+    margin-top: 16px;
+}
